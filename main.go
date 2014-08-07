@@ -23,5 +23,5 @@ Find the sum of all the multiples of 3 or 5 below 1000.`)
 	fmt.Println("The prime factors of 13195 are 5, 7, 13 and 29.")
 	fmt.Println("What is the largest prime factor of the number 600851475143 ?")
 	fmt.Println("Answer:")
-	fmt.Println(euler.PrimeFactorization(13195))
+	fmt.Println(euler.PrimeFactorization(600851475143))
 }
