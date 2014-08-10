@@ -50,5 +50,11 @@ Find the sum of all the multiples of 3 or 5 below 1000.`)
 	fmt.Println("Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.")
 	fmt.Println("Answer:")
 	fmt.Println(euler.SumSquareDifference(100))
-
+	fmt.Println("---------------")
+	fmt.Println("Problem 7")
+	fmt.Println("10001st prime")
+	fmt.Println("By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.")
+	fmt.Println("What is the 10 001st prime number?")
+	fmt.Println("Answer:")
+	fmt.Println(euler.NthPrimeNumber(10001))
 }
